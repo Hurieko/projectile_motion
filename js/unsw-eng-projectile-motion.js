@@ -11250,7 +11250,7 @@ define("sim-common/VersionCheck", function () {}),
             sceneEntities.angle.capi.setVal(65);
             sceneEntities.targets.targetsCapi.setAllowTargetDrag(true);
             sceneEntities.targets.targetsCapi.setTargets(numOfTargets);
-            
+            console.log("Just write something dumb to test out the pull request");
             for (var i = 0; i < numOfTargets; i++) {
                 sceneEntities.targets.children[numOfEntities + i].capi.setX(targetPos["tar"+i].x);
                 sceneEntities.targets.children[numOfEntities + i].capi.setY(targetPos["tar"+i].y);
